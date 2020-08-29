@@ -55,7 +55,7 @@ body {
 }
 
 .nav li a:hover {
-  border-bottom: 2px solid #e37435;
+  border-bottom: 2px solid #23403A;
 }
 
 @media (min-width: 640px) {
@@ -79,12 +79,12 @@ body {
   display: block;
   font-weight: bold;
   font-family: "Alice", "Raleway", sans-serif;
-  color: #e37435;
+  color: #142623;
 }
 
 .intro__info {
   padding: 32px 24px;
-  background-color: #e6eece;
+  background-color: #F2f2f2;
   z-index: 2;
 }
 
@@ -116,7 +116,7 @@ body {
   width: 36px;
   height: 36px;
   margin: 0 0 0 32px;
-  background-color: #8eaa3c;
+  background-color: #23403A;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -210,7 +210,7 @@ body {
 .section-header__title {
   font-family: "Alice", "Raleway", sans-serif;
   font-size: 32px;
-  color: #e37435;
+  color: #23403A;
   margin: 16px 0 0;
 }
 
@@ -233,7 +233,7 @@ body {
 }
 
 .attraction-info {
-  background-color: #e6eece;
+  background-color: #F2f2f2;
   padding: 24px;
   position: relative;
   z-index: 2;
