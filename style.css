@@ -137,10 +137,12 @@ body {
 
 @media (min-width: 640px) {
   .intro {
+    grid-template-rows: 3fr 1fr 3fr 3fr 100px;
   }
 
   .intro__heading {
     font-size: 5vw;
+    grid-column: 1 / -2;
   }
 
   .intro__heading__jumbo {
@@ -148,6 +150,7 @@ body {
   }
 
   .intro__info {
+    grid-row: 3 / 4;
   }
 
   .intro__info__heading {
@@ -159,11 +162,15 @@ body {
   }
 
   .intro__img {
+    grid-column: 1 / -2;
+    grid-row: 2 / span 4;
   }
 
   .intro__social {
     flex-direction: column;
     padding: 0;
+    grid-column: -2 / -1;
+    grid-row: 2 / span 4;
   }
 
   .intro__social__item {
